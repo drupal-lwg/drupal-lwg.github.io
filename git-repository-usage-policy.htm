@@ -9,16 +9,16 @@
   <li>All PHP code committed to Drupal.org's git repository is licensed as GPLv2 and later (often abbreviated “GPLv2+”). This means that the code is licensed under GPLv2, and there exists an option that allows downstream recipients to re-license the code to be under a later version of GPL.</li>
   <li>All PHP and JavaScript should comply to the <a href="https://www.drupal.org/coding-standards">coding standards</a>.</strong> Any patch or pull request that fails to do this will generally be treated as unfinished work.</li>
   <li>All code downloaded from Drupal.org is distributed as GPLv2+ and includes this license. Any permissively licensed 3rd party PHP code that allows relicensing is automatically relicensed and distributed as GPLv2+ when the code is granted an exception by the LWG to be included in Drupal.org's Git repository.</li>
-  <li>Any third party materials you include must have their provenance, license and source documented in a file included in the project.</li>
+  <li>Any third party assets you include must have their provenance, license and source documented in a file included in the project.</li>
   <li>The "and later" clause in the Drupal GPLv2+ license allows anyone to distribute a derivative work (i.e. a version of Drupal core, modules, themes) linked to a library under a license compatible with a later version of GPL, such as GPLv3. Distribution of such derivative works is not allowed from Drupal.org.</li>
 </ul>
 
-<h2 id="terms">Drupal Contributions Repository - Terms of service</h2>
+<h2 id="terms">Drupal Contributions Repository - Terms of service (TOS)</h2>
 <p>The following terms of service represent the agreement between the  Drupal Contributions Repository owners, hereafter the owner,  and users of the Drupal Contributions Repository, hereafter the user.</p>
 
 <h3 id="acceptance">Acceptance of Terms</h3>
 <p>The Drupal Contributions repository is a public and free service provided to share various additions to Drupal. A user's use of this repository constitutes full acceptance of and agreement to the TOS; if a user does not accept the TOS, he or she is not granted rights to use the repository and should refrain from accessing the repository. </p>
-<p>The owner reserves the right to modify or discontinue, temporarily or permanently any services or the TOS at any time, with prior notice to users, or without prior notice in the event of technical difficulties. The owner is not liable for any damage to any user or other third party that may result form any such modification, suspension or discontinuance of the service or of the TOS. </p>
+<p>The owner reserves the right to modify or discontinue, temporarily or permanently any services or the TOS at any time, with or without prior notice to users. The owner is not liable for any damage to any user or other third party that may result form any such modification, suspension or discontinuance of the service or of the TOS. </p>
 
 <h3 id="registration">Registration Obligations</h3>
 <p>All users are granted unlimited read access to the repository. Write access is granted only to registered users. Each user will receive a password and account upon completion of the registration process and is responsible for maintaining confidentiality thereof and is wholly liable for all activities occurring thereunder.</p>
@@ -26,7 +26,18 @@
 
 <h3 id="content">Content</h3>
 <p>All information, data, text, software, music, sound, photographs, graphics, video, messages or any other materials whatsoever (collectively, "content"), whether publicly posted or privately transmitted, are the sole responsibility of the party from which such content originated.</p>
-<p>All content submitted to the repository is automatically assumed to be licensed under the GPLv2+ unless otherwise specified. Any content that is not licensed under the GPLv2+ or granted an exception by the LWG should not be added to the repository and when found it will be removed.</p>
+<p>All code submitted to the repository must be <a href="https://www.gnu.org/licenses/license-list.en.html#GPLCompatibleLicenses">GPLv2+ compatible</a>, and will automatically be redistributed under as GPLv2+.</p>
+<p>Any code that is not <a href="https://www.gnu.org/licenses/license-list.en.html#GPLCompatibleLicenses">GPLv2+ compatible</a> or granted an exception by the LWG should not be added to the repository and when found will be removed.</p>
+<p>While the code submitted to the repository must be <a href="https://www.gnu.org/licenses/license-list.en.html#GPLCompatibleLicenses">GPLv2+ compatible</a>, it may link to or depend on GPL-incompatible works—including but not limited to code, APIs, libraries, and other assets—to be used via manual installation, a dependency resolution tool such as Composer, or similar. However, Drupal.org cannot package or distribute these GPL-incompatible works. This is because the GPL permits the <strong>use</strong> of GPL and non-GPL works together, but not the copying, modification, or distribution of the incompatible works.
+  <blockquote>
+     "Activities other than copying, distribution and modification are not covered by this License; they are outside its scope. The act of running the Program is not restricted, and the output from the Program is covered only if its contents constitute a work based on the Program (independent of having been made by running the Program). Whether that is true depends on what the Program does."
+  </blockquote>
+</p> 
+<p>Any non-code content—including but not limited to assets like fonts, icons, images, etc—may be submitted to the repository under any license to which the user has the rights. The packaging or distirbution of GPL-incompatible non-code assets "in aggregate" with GPL code is explicitly permitted in the final stipulation of <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html#SEC3">Sec 3, Clause 2 of the GPL</a>.  
+  <blockquote>
+    "In addition, mere aggregation of another work not based on the Program with the Program (or with a work based on the Program) on a volume of a storage or distribution medium does not bring the other work under the scope of this License."
+  </blockquote>
+</p>
 <p>The repository maintainers can refuse or remove any content at their discretion and without prior notice to the affected party.</p>
 <p>The owner is not responsible for the content maintained in the repository. All damages, physical, logical or other resulting from the use or abuse of the repository and its content are the user's sole responsibility. The owner is not liable in any way.</p>
 
