@@ -1,22 +1,25 @@
 <p>These questions and answers help clarify legal issues related to the licensing of the Drupal project, and the GNU General Public License. Our thanks to the <a href="http://www.softwarefreedom.org/" target="_blank">Software Freedom Law Center</a> for their assistance in preparing this information.</p>
 
 <ol>
-	<li><a href="#q1">What is the license for Drupal?</a></li>
-	<li><a href="#q2">Does the license cover just PHP, or everything?</a></li>
-	<li><a href="#q3">Who holds the copyright for Drupal?</a></li>
-	<li><a href="#q4">I want to release my work under GPL version 3 or under GPL version 2-only. Can I do so and host it on Drupal.org?</a></li>
-	<li><a href="#q5">What is the license for content on Drupal.org?</a></li>
-	<li><a href="#q6">The GPL requires that any recipients of a program receive its "source code". What does that mean for a web application?</a></li>
-	<li><a href="#q7">If I write a module or theme, do I have to license it under the GPL?</a></li>
-	<li><a href="#q8">If I write a module or theme, do I have to give it away to everyone?</a></li>
-	<li><a href="#q9">Can I sell Drupal, or a Drupal module, or a Drupal theme?</a></li>
-	<li><a href="#q10">Can I write a "bridge module" to interface between Drupal and another system or library?</a></li>
-	<li><a href="#q11">Do I have to give my web site's code to anyone who visits it?</a></li>
-	<li><a href="#q12">Is Drupal going to move to GPL version 3?</a></li>
-	<li><a href="#q13">I found a module or theme in the contributions repository that says it's only available under version 2 of the GPL or is only under version 3 of the GPL. What should I do?</a></li>
-	<li><a href="#q14">I found a module or theme in the contributions repository that says it's available under a different license than the GPL (including the LGPL or AGPL). What should I do?</a></li>
-	<li><a href="#q15">I have a question that's not answered here. What should I do?</a></li>
-	<li><a href="#q16">Why is Drupal a registered trademark of Dries Buytaert? Does that mean it's not free?</a></li>
+	<li><a href="#drupal-license">What is the license for Drupal?</a></li>
+	<li><a href="#gpl-compatible">Can code licensed under GPL-compatible licenses be included in Drupal projects?
+</a></li>
+        <li><a href="#non-code-assets">Can Drupal projects include <strong>GPL-incompatible non-code assets<strong>? (e.g. fonts, icons, etc)</a></li>
+	<li><a href="#link-gpl-incompatible">Can Drupal projects depend on or link to GPL-incompatible code? (3rd-party libraries, APIs, etc)</a></li>
+	<li><a href="#drupal-copyright">Who holds the copyright for Drupal?</a></li>
+	<li><a href="#gpl2-only-gpl3-only">I want to release my work under GPL version 3 or under GPL version 2-only. Can I do so and host it on Drupal.org?</a></li>
+	<li><a href="#content-license">What is the license for content on Drupal.org?</a></li>
+	<li><a href="#source-code">The GPL requires that any recipients of a program receive its "source code". What does that mean for a web application?</a></li>
+	<li><a href="#project-licensing">If I write a module or theme, do I have to license it under the GPL?</a></li>
+	<li><a href="#giving-away">If I write a module or theme, do I have to give it away to everyone?</a></li>
+	<li><a href="#commercial">Can I sell Drupal, or a Drupal module, or a Drupal theme?</a></li>
+	<li><a href="#bridge">Can I write a "bridge module" to interface between Drupal and another system or library?</a></li>
+	<li><a href="#web-source">Do I have to give my web site's code to anyone who visits it?</a></li>
+	<li><a href="#gpl3">Is Drupal going to move to GPL version 3?</a></li>
+	<li><a href="#gpl-mislicensed">I found a module or theme in the contributions repository that says it's only available under version 2 of the GPL or is only under version 3 of the GPL. What should I do?</a></li>
+	<li><a href="#mislicensed">I found a module or theme in the contributions repository that says it's available under a different license than the GPL (including the LGPL or AGPL). What should I do?</a></li>
+	<li><a href="#questions">I have a question that's not answered here. What should I do?</a></li>
+	<li><a href="#trademark">Why is Drupal a registered trademark of Dries Buytaert? Does that mean it's not free?</a></li>
 </ol>
 
 <hr />
@@ -33,7 +36,7 @@
 	<p>Drupal, and all contributed files that are derivative works of Drupal hosted on Drupal.org, are licensed under the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU General Public License, version 2 or later</a>. That means you are free to download, reuse, modify, and distribute any files hosted in Drupal.org's Git repositories under the terms of either the GPL version 2 or version 3, and to run Drupal in combination with any code with any license that is compatible with either versions 2 or 3, such as the Affero General Public License (AGPL) version 3.</p>
 	</li>
 	<li>
-	<p class="question" id="gpl-compatible">Can code licensed under '<a href="https://www.gnu.org/licenses/license-list.en.html#GPLCompatibleLicenses"GPL-compatible</a>' licenses be included in Drupal projects?</p>
+	<p class="question" id="gpl-compatible">Can code licensed under <a href="https://www.gnu.org/licenses/license-list.en.html#GPLCompatibleLicenses">'GPL-compatible'</a> licenses be included in Drupal projects?</p>
 
 	<p>Yes, but it will be relicensed upon distribution from Drupal.org as GPL2 or later. </p>
 	</li>
